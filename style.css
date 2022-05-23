@@ -1,0 +1,30 @@
+.sort {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    border-top: 3px solid gray;
+
+}
+
+#list {
+    border-right: 3px solid gray;
+    padding-top: 10px;
+}
+
+#article {
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+@media (max-width: 800px) {
+    .sort {
+        display: block;
+    }
+
+    #list {
+        border-right: none;
+    }
+}
+h2{
+    text-align: center;
+}
